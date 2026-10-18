@@ -1,0 +1,15 @@
+requirement,status,evidence_or_gap
+data/raw,Missing,Original glucose and baseline-liquid measurements are outside the specified source tree.
+data/metadata,Partial,"Derived 15-sweep inventory, class mapping and saved NPZ metadata included; acquisition record and units need confirmation."
+data/processed,Partial,"Original expanded feature table, a derived exact 17-predictor view and one window NPZ included; window frequency limits are absent."
+data/splits,Partial,Rotation extracted from saved metrics; separate saved feature-CV assignment not found. Saved NPZ uses a different split.
+src,Available with review,Core library plus notebook implementations of feature extraction and all six feature classifiers included unchanged.
+configs,Partial,Recorded neural settings and literal feature bands extracted. No complete standalone config files or beta sensitivity outputs found.
+notebooks,Partial,11 numbered .py notebook-style scripts included; portable top-to-bottom execution has not been verified.
+scripts,Partial,Original root entry points included. A helper restores artifact outputs/ paths. Saved-model-only inference entry point not found.
+models,Partial,"30 CNN/SpikingCNN state_dict checkpoints found; classical fitted estimators, reservoir matrices/biases/Ridge and precision readouts not found."
+results,Partial,"Existing metrics, logs, predictions and central tables included. Prediction CSVs lack class score columns and explicit window/frequency IDs."
+figures,Partial,Generated exports included; final numbered manuscript figures and editable device schematics absent from this source tree.
+hardware,Partial,"One-neuron Verilog/spec and 12/16-bit vectors included; no testbench, simulator trace or full-reservoir verification evidence found."
+docs,Review package,"Original docs preserved; status, manifest, reproduction guidance and requirement mapping generated."
+root metadata,Partial,"Review README, current-environment pins, .gitignore and draft CITATION.cff provided; licensing and citation author details need confirmation."

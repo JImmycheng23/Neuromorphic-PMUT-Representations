@@ -1,0 +1,14 @@
+[
+  {
+    "file": "repository/prepare_dataset.py",
+    "original_sha256": "a5f1f511ff460ce386e9034aef4da73c6f0672a321fd8988f4edba8478e700ad",
+    "staged_sha256": "a4e7a927fdfb096814afdfcf5b723741890e3b11878ccc3be8901fafdaae682b",
+    "change": "Fix argparse help formatting and correct the documented default stride; no numerical or training logic changes."
+  },
+  {
+    "file": "repository/train.py",
+    "original_sha256": "953b8ee350daa15e6f72c26fff03a31873d6eb6c4c7a440026283e20a9f37d07",
+    "staged_sha256": "cccb0a76a76b9bd20c8a3865a41f655ba265e6bf47af7d0d460ae7cd15b000c7",
+    "change": "Fix argparse help formatting and correct the documented default stride; no numerical or training logic changes."
+  }
+]

@@ -1,0 +1,7 @@
+# Reported study scope
+
+The reported **SpikingCNN1D study covers fold 0 only**, with seeds 7, 42, 123, 999 and 2024. It is incomplete and exploratory. Its fold-0 mean window accuracy is 79.6% and mean sweep accuracy is 92.0%. These are not three-fold performance estimates. Extra fold-1/fold-2 files already present in the source are preserved as archival material; their existence or inference checks do not expand the reported study scope. They are excluded from the manuscript aggregates and marked out of scope in the model/result indexes.
+
+The **HDL contribution is a single-neuron Q3.12 LIF prototype**. The complete 300-neuron recurrent reservoir and readout have not been established as a verified hardware classifier. Software traces and test-vector files are supporting artifacts, not RTL simulation proof. No full-classifier cycle-accurate verification or FPGA performance measurements are claimed. Historical central-table `hdl_verified` fields must not be interpreted as proof of verification; refer to this scope statement for the current claim.
+
+The precision study has a separate [protocol and condition-specific evidence index](generated/precision_regeneration/README.md). Its preprocessing and independently refitted readouts remain floating point. The manuscript, result audit and model index use this reporting scope. Original source files and historical documentation are preserved as provenance rather than current completion claims.

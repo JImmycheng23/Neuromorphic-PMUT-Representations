@@ -1,0 +1,187 @@
+{
+  "recurrent_signs": {
+    "conclusion": "80:20 type labels are present, but multiplying mixed-sign Gaussian columns by labels does not enforce sign-consistent outgoing weights.",
+    "exports": [
+      {
+        "export": "generated\\models\\reservoir\\LSM_membrane\\fold0_seed123\\fitted_parameters.npz",
+        "mixed_sign_outgoing_columns": 300,
+        "neurons": 300,
+        "positive_type_labels": 240,
+        "negative_type_labels": 60
+      },
+      {
+        "export": "generated\\models\\reservoir\\LSM_membrane\\fold0_seed2024\\fitted_parameters.npz",
+        "mixed_sign_outgoing_columns": 300,
+        "neurons": 300,
+        "positive_type_labels": 240,
+        "negative_type_labels": 60
+      },
+      {
+        "export": "generated\\models\\reservoir\\LSM_membrane\\fold0_seed42\\fitted_parameters.npz",
+        "mixed_sign_outgoing_columns": 300,
+        "neurons": 300,
+        "positive_type_labels": 240,
+        "negative_type_labels": 60
+      },
+      {
+        "export": "generated\\models\\reservoir\\LSM_membrane\\fold0_seed7\\fitted_parameters.npz",
+        "mixed_sign_outgoing_columns": 300,
+        "neurons": 300,
+        "positive_type_labels": 240,
+        "negative_type_labels": 60
+      },
+      {
+        "export": "generated\\models\\reservoir\\LSM_membrane\\fold0_seed999\\fitted_parameters.npz",
+        "mixed_sign_outgoing_columns": 300,
+        "neurons": 300,
+        "positive_type_labels": 240,
+        "negative_type_labels": 60
+      },
+      {
+        "export": "generated\\models\\reservoir\\LSM_membrane\\fold1_seed123\\fitted_parameters.npz",
+        "mixed_sign_outgoing_columns": 300,
+        "neurons": 300,
+        "positive_type_labels": 240,
+        "negative_type_labels": 60
+      },
+      {
+        "export": "generated\\models\\reservoir\\LSM_membrane\\fold1_seed2024\\fitted_parameters.npz",
+        "mixed_sign_outgoing_columns": 300,
+        "neurons": 300,
+        "positive_type_labels": 240,
+        "negative_type_labels": 60
+      },
+      {
+        "export": "generated\\models\\reservoir\\LSM_membrane\\fold1_seed42\\fitted_parameters.npz",
+        "mixed_sign_outgoing_columns": 300,
+        "neurons": 300,
+        "positive_type_labels": 240,
+        "negative_type_labels": 60
+      },
+      {
+        "export": "generated\\models\\reservoir\\LSM_membrane\\fold1_seed7\\fitted_parameters.npz",
+        "mixed_sign_outgoing_columns": 300,
+        "neurons": 300,
+        "positive_type_labels": 240,
+        "negative_type_labels": 60
+      },
+      {
+        "export": "generated\\models\\reservoir\\LSM_membrane\\fold1_seed999\\fitted_parameters.npz",
+        "mixed_sign_outgoing_columns": 300,
+        "neurons": 300,
+        "positive_type_labels": 240,
+        "negative_type_labels": 60
+      },
+      {
+        "export": "generated\\models\\reservoir\\LSM_membrane\\fold2_seed123\\fitted_parameters.npz",
+        "mixed_sign_outgoing_columns": 300,
+        "neurons": 300,
+        "positive_type_labels": 240,
+        "negative_type_labels": 60
+      },
+      {
+        "export": "generated\\models\\reservoir\\LSM_membrane\\fold2_seed2024\\fitted_parameters.npz",
+        "mixed_sign_outgoing_columns": 300,
+        "neurons": 300,
+        "positive_type_labels": 240,
+        "negative_type_labels": 60
+      },
+      {
+        "export": "generated\\models\\reservoir\\LSM_membrane\\fold2_seed42\\fitted_parameters.npz",
+        "mixed_sign_outgoing_columns": 300,
+        "neurons": 300,
+        "positive_type_labels": 240,
+        "negative_type_labels": 60
+      },
+      {
+        "export": "generated\\models\\reservoir\\LSM_membrane\\fold2_seed7\\fitted_parameters.npz",
+        "mixed_sign_outgoing_columns": 300,
+        "neurons": 300,
+        "positive_type_labels": 240,
+        "negative_type_labels": 60
+      },
+      {
+        "export": "generated\\models\\reservoir\\LSM_membrane\\fold2_seed999\\fitted_parameters.npz",
+        "mixed_sign_outgoing_columns": 300,
+        "neurons": 300,
+        "positive_type_labels": 240,
+        "negative_type_labels": 60
+      },
+      {
+        "export": "generated\\models\\reservoir\\LSM_spikes\\fold0_seed42\\fitted_parameters.npz",
+        "mixed_sign_outgoing_columns": 300,
+        "neurons": 300,
+        "positive_type_labels": 240,
+        "negative_type_labels": 60
+      },
+      {
+        "export": "generated\\models\\reservoir\\LSM_spikes\\fold1_seed42\\fitted_parameters.npz",
+        "mixed_sign_outgoing_columns": 300,
+        "neurons": 300,
+        "positive_type_labels": 240,
+        "negative_type_labels": 60
+      },
+      {
+        "export": "generated\\models\\reservoir\\LSM_spikes\\fold2_seed42\\fitted_parameters.npz",
+        "mixed_sign_outgoing_columns": 300,
+        "neurons": 300,
+        "positive_type_labels": 240,
+        "negative_type_labels": 60
+      }
+    ]
+  },
+  "precision_lower_bound": {
+    "conclusion": "The floating-point LSM clamps post-reset membrane to -threshold; the reduced-precision notebook omits this clamp. Results confound numerical precision with a change in dynamics.",
+    "conditions": [
+      {
+        "condition": "Float_reference",
+        "minimum_mean_membrane": -1.0,
+        "feature_entries_below_minus_one": 0,
+        "feature_entries": 69000
+      },
+      {
+        "condition": "16-bit",
+        "minimum_mean_membrane": -8.0,
+        "feature_entries_below_minus_one": 28159,
+        "feature_entries": 69000
+      },
+      {
+        "condition": "12-bit",
+        "minimum_mean_membrane": -8.0,
+        "feature_entries_below_minus_one": 28088,
+        "feature_entries": 69000
+      },
+      {
+        "condition": "8-bit",
+        "minimum_mean_membrane": -8.0,
+        "feature_entries_below_minus_one": 27881,
+        "feature_entries": 69000
+      },
+      {
+        "condition": "4-bit",
+        "minimum_mean_membrane": -2.0,
+        "feature_entries_below_minus_one": 30720,
+        "feature_entries": 69000
+      }
+    ]
+  },
+  "spiking_cnn_state": {
+    "test": "Fold-0 seed-7 checkpoint; first 16 test windows; beta changed from 0.1 to 0.9",
+    "identical_logits": true,
+    "maximum_logit_difference": 0.0,
+    "conclusion": "LIF modules are called with fresh zero membrane and the returned state is discarded. The implemented SpikingCNN is a stateless threshold-activation CNN; beta does not create integration across spectral bins."
+  },
+  "single_neuron_rtl": {
+    "validation": "Static inspection only; no HDL simulator is installed.",
+    "file": "repository\\hardware\\hdl\\lif_neuron_fxp.v",
+    "issues": [
+      "Reset replication is written as {TOTAL_BITS}{1'b0}; valid replication requires {TOTAL_BITS{1'b0}}.",
+      "Threshold, saturation checks and o_membrane read the old membrane in the same clocked block as its nonblocking update.",
+      "The updated value is assigned into a TOTAL_BITS register before any effective wide-accumulator saturation check.",
+      "mult_temp is unsigned, so >>> does not sign-extend negative products.",
+      "i_current is not latched at i_valid acceptance; it must remain stable until the later COMPUTE state.",
+      "The embedded testbench drives clock/reset only and never asserts i_valid or loads the advertised vectors."
+    ],
+    "conclusion": "Unverified single-neuron RTL draft; syntax/timing/arithmetic corrections and functional simulation are required before synthesis-ready or equivalence claims."
+  }
+}

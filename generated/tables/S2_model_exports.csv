@@ -1,0 +1,105 @@
+path,kind,status,reported_in_manuscript,bytes
+repository/models/high-glucose_folds_w128/cnn1d/fold0_seed123/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,True,70965
+repository/models/high-glucose_folds_w128/cnn1d/fold0_seed2024/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,True,70965
+repository/models/high-glucose_folds_w128/cnn1d/fold0_seed42/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,True,70965
+repository/models/high-glucose_folds_w128/cnn1d/fold0_seed7/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,True,70965
+repository/models/high-glucose_folds_w128/cnn1d/fold0_seed999/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,True,70965
+repository/models/high-glucose_folds_w128/cnn1d/fold1_seed123/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,True,70965
+repository/models/high-glucose_folds_w128/cnn1d/fold1_seed2024/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,True,70965
+repository/models/high-glucose_folds_w128/cnn1d/fold1_seed42/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,True,70965
+repository/models/high-glucose_folds_w128/cnn1d/fold1_seed7/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,True,70965
+repository/models/high-glucose_folds_w128/cnn1d/fold1_seed999/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,True,70965
+repository/models/high-glucose_folds_w128/cnn1d/fold2_seed123/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,True,70965
+repository/models/high-glucose_folds_w128/cnn1d/fold2_seed2024/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,True,70965
+repository/models/high-glucose_folds_w128/cnn1d/fold2_seed42/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,True,70965
+repository/models/high-glucose_folds_w128/cnn1d/fold2_seed7/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,True,70965
+repository/models/high-glucose_folds_w128/cnn1d/fold2_seed999/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,True,70965
+repository/models/high-glucose_folds_w128/spiking_cnn1d/fold0_seed123/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,True,71029
+repository/models/high-glucose_folds_w128/spiking_cnn1d/fold0_seed2024/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,True,71029
+repository/models/high-glucose_folds_w128/spiking_cnn1d/fold0_seed42/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,True,71029
+repository/models/high-glucose_folds_w128/spiking_cnn1d/fold0_seed7/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,True,71029
+repository/models/high-glucose_folds_w128/spiking_cnn1d/fold0_seed999/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,True,71029
+repository/models/high-glucose_folds_w128/spiking_cnn1d/fold1_seed123/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,False,71029
+repository/models/high-glucose_folds_w128/spiking_cnn1d/fold1_seed2024/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,False,71029
+repository/models/high-glucose_folds_w128/spiking_cnn1d/fold1_seed42/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,False,71029
+repository/models/high-glucose_folds_w128/spiking_cnn1d/fold1_seed7/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,False,71029
+repository/models/high-glucose_folds_w128/spiking_cnn1d/fold1_seed999/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,False,71029
+repository/models/high-glucose_folds_w128/spiking_cnn1d/fold2_seed123/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,False,71029
+repository/models/high-glucose_folds_w128/spiking_cnn1d/fold2_seed2024/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,False,71029
+repository/models/high-glucose_folds_w128/spiking_cnn1d/fold2_seed42/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,False,71029
+repository/models/high-glucose_folds_w128/spiking_cnn1d/fold2_seed7/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,False,71029
+repository/models/high-glucose_folds_w128/spiking_cnn1d/fold2_seed999/best_model.pt,neural checkpoint,original saved checkpoint; inference verified,False,71029
+generated/models/features/legacy_full_table_imputation/KNN_k=3/fold0/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,3846
+generated/models/features/legacy_full_table_imputation/KNN_k=3/fold1/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,3846
+generated/models/features/legacy_full_table_imputation/KNN_k=3/fold2/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,3846
+generated/models/features/legacy_full_table_imputation/KNN_k=5/fold0/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,3846
+generated/models/features/legacy_full_table_imputation/KNN_k=5/fold1/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,3846
+generated/models/features/legacy_full_table_imputation/KNN_k=5/fold2/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,3846
+generated/models/features/legacy_full_table_imputation/MLP/fold0/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,122410
+generated/models/features/legacy_full_table_imputation/MLP/fold1/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,122714
+generated/models/features/legacy_full_table_imputation/MLP/fold2/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,122138
+generated/models/features/legacy_full_table_imputation/Random_Forest/fold0/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,253155
+generated/models/features/legacy_full_table_imputation/Random_Forest/fold1/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,254403
+generated/models/features/legacy_full_table_imputation/Random_Forest/fold2/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,254403
+generated/models/features/legacy_full_table_imputation/SVM_Linear/fold0/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,5562
+generated/models/features/legacy_full_table_imputation/SVM_Linear/fold1/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,5562
+generated/models/features/legacy_full_table_imputation/SVM_Linear/fold2/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,5562
+generated/models/features/legacy_full_table_imputation/SVM_RBF/fold0/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,5706
+generated/models/features/legacy_full_table_imputation/SVM_RBF/fold1/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,5706
+generated/models/features/legacy_full_table_imputation/SVM_RBF/fold2/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,5706
+generated/models/features/training_fold_only_imputation/KNN_k=3/fold0/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,3917
+generated/models/features/training_fold_only_imputation/KNN_k=3/fold1/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,3917
+generated/models/features/training_fold_only_imputation/KNN_k=3/fold2/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,3917
+generated/models/features/training_fold_only_imputation/KNN_k=5/fold0/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,3917
+generated/models/features/training_fold_only_imputation/KNN_k=5/fold1/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,3917
+generated/models/features/training_fold_only_imputation/KNN_k=5/fold2/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,3917
+generated/models/features/training_fold_only_imputation/MLP/fold0/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,122545
+generated/models/features/training_fold_only_imputation/MLP/fold1/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,122737
+generated/models/features/training_fold_only_imputation/MLP/fold2/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,122305
+generated/models/features/training_fold_only_imputation/Random_Forest/fold0/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,253242
+generated/models/features/training_fold_only_imputation/Random_Forest/fold1/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,254490
+generated/models/features/training_fold_only_imputation/Random_Forest/fold2/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,254490
+generated/models/features/training_fold_only_imputation/SVM_Linear/fold0/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,5649
+generated/models/features/training_fold_only_imputation/SVM_Linear/fold1/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,5649
+generated/models/features/training_fold_only_imputation/SVM_Linear/fold2/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,5649
+generated/models/features/training_fold_only_imputation/SVM_RBF/fold0/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,5793
+generated/models/features/training_fold_only_imputation/SVM_RBF/fold1/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,5793
+generated/models/features/training_fold_only_imputation/SVM_RBF/fold2/fitted_model.joblib,feature classifier,regenerated fitted CV model; reload verified,True,5793
+generated/models/reservoir/ESN/fold0_seed123/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,668942
+generated/models/reservoir/ESN/fold0_seed2024/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,668881
+generated/models/reservoir/ESN/fold0_seed42/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,669007
+generated/models/reservoir/ESN/fold0_seed7/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,669949
+generated/models/reservoir/ESN/fold0_seed999/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,669446
+generated/models/reservoir/ESN/fold1_seed123/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,668947
+generated/models/reservoir/ESN/fold1_seed2024/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,668870
+generated/models/reservoir/ESN/fold1_seed42/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,669006
+generated/models/reservoir/ESN/fold1_seed7/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,669941
+generated/models/reservoir/ESN/fold1_seed999/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,669431
+generated/models/reservoir/ESN/fold2_seed123/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,668952
+generated/models/reservoir/ESN/fold2_seed2024/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,668857
+generated/models/reservoir/ESN/fold2_seed42/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,669001
+generated/models/reservoir/ESN/fold2_seed7/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,669947
+generated/models/reservoir/ESN/fold2_seed999/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,669423
+generated/models/reservoir/LSM_membrane/fold0_seed123/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,671054
+generated/models/reservoir/LSM_membrane/fold0_seed2024/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,671041
+generated/models/reservoir/LSM_membrane/fold0_seed42/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,671143
+generated/models/reservoir/LSM_membrane/fold0_seed7/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,672042
+generated/models/reservoir/LSM_membrane/fold0_seed999/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,671646
+generated/models/reservoir/LSM_membrane/fold1_seed123/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,671016
+generated/models/reservoir/LSM_membrane/fold1_seed2024/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,670974
+generated/models/reservoir/LSM_membrane/fold1_seed42/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,671102
+generated/models/reservoir/LSM_membrane/fold1_seed7/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,671999
+generated/models/reservoir/LSM_membrane/fold1_seed999/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,671590
+generated/models/reservoir/LSM_membrane/fold2_seed123/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,671017
+generated/models/reservoir/LSM_membrane/fold2_seed2024/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,670992
+generated/models/reservoir/LSM_membrane/fold2_seed42/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,671126
+generated/models/reservoir/LSM_membrane/fold2_seed7/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,671998
+generated/models/reservoir/LSM_membrane/fold2_seed999/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,671627
+generated/models/reservoir/LSM_spikes/fold0_seed42/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,670600
+generated/models/reservoir/LSM_spikes/fold1_seed42/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,670659
+generated/models/reservoir/LSM_spikes/fold2_seed42/fitted_parameters.npz,reservoir + Ridge,regenerated; probabilities match archive; reload verified,True,670681
+generated/precision_regeneration/12-bit/regenerated_model.npz,precision-specific reservoir + Ridge,regenerated; accuracy matches archive,True,1124373
+generated/precision_regeneration/16-bit/regenerated_model.npz,precision-specific reservoir + Ridge,regenerated; accuracy matches archive,True,1296347
+generated/precision_regeneration/4-bit/regenerated_model.npz,precision-specific reservoir + Ridge,regenerated; accuracy matches archive,True,755214
+generated/precision_regeneration/8-bit/regenerated_model.npz,precision-specific reservoir + Ridge,regenerated; accuracy matches archive,True,947506
+generated/precision_regeneration/Float_reference/regenerated_model.npz,precision-specific reservoir + Ridge,regenerated; accuracy matches archive,True,1752652

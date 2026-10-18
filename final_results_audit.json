@@ -1,0 +1,341 @@
+{
+  "authoritative_root": "C:\\Users\\27010\\Desktop\\Neumat\\publish\\Git-paper",
+  "method": "Mean class probabilities per sweep, then mean across runs and equally sized folds; no retraining.",
+  "reporting_scope": {
+    "SpikingCNN1D": "Fold 0 only, five seeds; folds 1 and 2 are archival and excluded from reported aggregates.",
+    "HDL": "Single-neuron prototype only; no verified full-reservoir hardware."
+  },
+  "summary": {
+    "ESN": {
+      "folds": [
+        {
+          "fold": 0,
+          "runs": 5,
+          "window_mean": 0.7008695652173913,
+          "window_population_sd": 0.015161387629706684,
+          "sweep_mean": 0.8400000000000001,
+          "sweep_population_sd": 0.07999999999999999
+        },
+        {
+          "fold": 1,
+          "runs": 5,
+          "window_mean": 0.8565217391304348,
+          "window_population_sd": 0.02910121831422871,
+          "sweep_mean": 0.96,
+          "sweep_population_sd": 0.07999999999999999
+        },
+        {
+          "fold": 2,
+          "runs": 5,
+          "window_mean": 0.8608695652173913,
+          "window_population_sd": 0.01603399036050936,
+          "sweep_mean": 1.0,
+          "sweep_population_sd": 0.0
+        }
+      ],
+      "window_mean": 0.8060869565217391,
+      "sweep_mean": 0.9333333333333333
+    },
+    "LSM membrane": {
+      "folds": [
+        {
+          "fold": 0,
+          "runs": 5,
+          "window_mean": 0.6791304347826087,
+          "window_population_sd": 0.005070392952039397,
+          "sweep_mean": 0.6,
+          "sweep_population_sd": 0.0
+        },
+        {
+          "fold": 1,
+          "runs": 5,
+          "window_mean": 0.817391304347826,
+          "window_population_sd": 0.005499613322031985,
+          "sweep_mean": 0.8,
+          "sweep_population_sd": 0.0
+        },
+        {
+          "fold": 2,
+          "runs": 5,
+          "window_mean": 0.8469565217391304,
+          "window_population_sd": 0.015161387629706698,
+          "sweep_mean": 1.0,
+          "sweep_population_sd": 0.0
+        }
+      ],
+      "window_mean": 0.7811594202898551,
+      "sweep_mean": 0.8
+    },
+    "LSM spikes": {
+      "folds": [
+        {
+          "fold": 0,
+          "runs": 1,
+          "window_mean": 0.7086956521739131,
+          "window_population_sd": 0.0,
+          "sweep_mean": 1.0,
+          "sweep_population_sd": 0.0
+        },
+        {
+          "fold": 1,
+          "runs": 1,
+          "window_mean": 0.8782608695652174,
+          "window_population_sd": 0.0,
+          "sweep_mean": 1.0,
+          "sweep_population_sd": 0.0
+        },
+        {
+          "fold": 2,
+          "runs": 1,
+          "window_mean": 0.8913043478260869,
+          "window_population_sd": 0.0,
+          "sweep_mean": 1.0,
+          "sweep_population_sd": 0.0
+        }
+      ],
+      "window_mean": 0.8260869565217391,
+      "sweep_mean": 1.0
+    },
+    "CNN1D": {
+      "folds": [
+        {
+          "fold": 0,
+          "runs": 5,
+          "window_mean": 0.7243478260869566,
+          "window_population_sd": 0.1051634788217031,
+          "sweep_mean": 0.7200000000000001,
+          "sweep_population_sd": 0.16
+        },
+        {
+          "fold": 1,
+          "runs": 5,
+          "window_mean": 0.6921739130434782,
+          "window_population_sd": 0.11174505144183848,
+          "sweep_mean": 0.68,
+          "sweep_population_sd": 0.16
+        },
+        {
+          "fold": 2,
+          "runs": 5,
+          "window_mean": 0.8869565217391304,
+          "window_population_sd": 0.02708245478677815,
+          "sweep_mean": 0.96,
+          "sweep_population_sd": 0.07999999999999999
+        }
+      ],
+      "window_mean": 0.7678260869565218,
+      "sweep_mean": 0.7866666666666667
+    },
+    "SpikingCNN1D": {
+      "folds": [
+        {
+          "fold": 0,
+          "runs": 5,
+          "window_mean": 0.7956521739130434,
+          "window_population_sd": 0.04658467908166564,
+          "sweep_mean": 0.92,
+          "sweep_population_sd": 0.0979795897113271
+        }
+      ],
+      "window_mean": 0.7956521739130434,
+      "sweep_mean": 0.92
+    }
+  },
+  "feature_missing_counts": {
+    "f0_b1_hz": 0,
+    "q_b1": 6,
+    "amp_b1": 0,
+    "f0_b2_hz": 0,
+    "q_b2": 0,
+    "amp_b2": 0,
+    "f0_b3_hz": 0,
+    "q_b3": 2,
+    "amp_b3": 0,
+    "f0_b4_hz": 0,
+    "q_b4": 7,
+    "amp_b4": 0,
+    "f_phase_transition_hz": 0,
+    "phase_slope_deg_per_hz": 0,
+    "amp_mean": 0,
+    "amp_peak": 0,
+    "amp_auc": 0
+  },
+  "feature_results": [
+    {
+      "model": "SVM (RBF)",
+      "accuracy": "0.6666666666666666",
+      "f1_macro": "0.6314285714285715",
+      "cv_mean": "0.6666666666666666",
+      "cv_std": "0.18856180831641267"
+    },
+    {
+      "model": "SVM (Linear)",
+      "accuracy": "0.8000000000000002",
+      "f1_macro": "0.7814285714285714",
+      "cv_mean": "0.8000000000000002",
+      "cv_std": "0.16329931618554522"
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": "0.9333333333333332",
+      "f1_macro": "0.9314285714285713",
+      "cv_mean": "0.9333333333333332",
+      "cv_std": "0.09428090415820632"
+    },
+    {
+      "model": "KNN (k=3)",
+      "accuracy": "0.6666666666666666",
+      "f1_macro": "0.6442857142857144",
+      "cv_mean": "0.6666666666666666",
+      "cv_std": "0.24944382578492943"
+    },
+    {
+      "model": "KNN (k=5)",
+      "accuracy": "0.6",
+      "f1_macro": "0.4666666666666666",
+      "cv_mean": "0.6",
+      "cv_std": "0.0"
+    },
+    {
+      "model": "MLP",
+      "accuracy": "0.8666666666666667",
+      "f1_macro": "0.8666666666666666",
+      "cv_mean": "0.8666666666666667",
+      "cv_std": "0.09428090415820632"
+    }
+  ],
+  "precision": [
+    {
+      "format": "Float (reference)",
+      "bits": 32,
+      "accuracy": 0.8391304347826087,
+      "accuracy_float": 0.8391304347826087,
+      "accuracy_quantized": 0.8391304347826087,
+      "acc_drop": 0.0,
+      "qfmt": "float32"
+    },
+    {
+      "format": "16-bit",
+      "bits": 16,
+      "accuracy": 0.8478260869565217,
+      "accuracy_float": 0.8391304347826087,
+      "accuracy_quantized": 0.8478260869565217,
+      "qfmt": "Qs3.12 (16-bit)",
+      "acc_drop": -0.008695652173912993
+    },
+    {
+      "format": "12-bit",
+      "bits": 12,
+      "accuracy": 0.8391304347826087,
+      "accuracy_float": 0.8391304347826087,
+      "accuracy_quantized": 0.8391304347826087,
+      "qfmt": "Qs3.8 (12-bit)",
+      "acc_drop": 0.0
+    },
+    {
+      "format": "8-bit",
+      "bits": 8,
+      "accuracy": 0.7521739130434782,
+      "accuracy_float": 0.8391304347826087,
+      "accuracy_quantized": 0.7521739130434782,
+      "qfmt": "Qs3.4 (8-bit)",
+      "acc_drop": 0.08695652173913049
+    },
+    {
+      "format": "4-bit",
+      "bits": 4,
+      "accuracy": 0.717391304347826,
+      "accuracy_float": 0.8391304347826087,
+      "accuracy_quantized": 0.717391304347826,
+      "qfmt": "Qs1.2 (4-bit)",
+      "acc_drop": 0.12173913043478268
+    }
+  ],
+  "sources_sha256": {
+    "results/reservoir/high-glucose/grouped_w128/fold0/metrics_summary.json": "338aa53728e9fae8a92b9c081e42fb2b7f2877ac48f1ef1fc7730beadf1502e0",
+    "results/reservoir/high-glucose/grouped_w128/fold0/predictions.csv": "34c558f2f0b68e345156bd799c210d848548b69558d992763fc2d9f78a0b0e84",
+    "results/reservoir/high-glucose/grouped_w128/fold0/lsm/metrics_summary.json": "ce90762d72c40efb88b755e367b2ba53b69fd80802f6eb954d30808003791efa",
+    "results/reservoir/high-glucose/grouped_w128/fold0/lsm/predictions.csv": "21709b49003acee8ce581711551a94faed84154f7254db65638f58c3a7a1a6c8",
+    "results/reservoir/high-glucose/grouped_w128/fold0/lsm/metrics_spikes.json": "fe992ffe425800706424233b329bff2b3db942a0c7f2952cbb8eb3398bddc93f",
+    "results/reservoir/high-glucose/grouped_w128/fold1/metrics_summary.json": "436e6d1d1d76e3d2a8eb35a987fe5f8fb87a9ced35b6d9181cdb4e1194761bf7",
+    "results/reservoir/high-glucose/grouped_w128/fold1/predictions.csv": "ea51809e42076fd9b270588c28a015802f41b393f16c6841a9846d75b64cc06b",
+    "results/reservoir/high-glucose/grouped_w128/fold1/lsm/metrics_summary.json": "2d8009b826417685fa6b65a2908be04f0710497fba68ac19e880be745dd44ac3",
+    "results/reservoir/high-glucose/grouped_w128/fold1/lsm/predictions.csv": "3f0b2b88b1464efa38dfe4c11f51fd1f0717e8c2431416cd56b6bfc43f42ace6",
+    "results/reservoir/high-glucose/grouped_w128/fold1/lsm/metrics_spikes.json": "71997bc0f0dff2d4b00498074f50f064fb0e056f2322090ce653c5208bb20e69",
+    "results/reservoir/high-glucose/grouped_w128/fold2/metrics_summary.json": "7e2de9560e2aaff64a0e1fee37948720b2edac463c1ebfd48a9fecfd13c8629d",
+    "results/reservoir/high-glucose/grouped_w128/fold2/predictions.csv": "58b18643ee061b7ca3099978ca76a7419a945a0394696362177098e4a2eade66",
+    "results/reservoir/high-glucose/grouped_w128/fold2/lsm/metrics_summary.json": "9e0c694efd7eeef553b0b6ae5754ba60b5ba9e685fa542c04275f9e049015506",
+    "results/reservoir/high-glucose/grouped_w128/fold2/lsm/predictions.csv": "fe22a56927daa974be5b4cd052307e75313bd8d8efb7ea6082970c67b4280651",
+    "results/reservoir/high-glucose/grouped_w128/fold2/lsm/metrics_spikes.json": "a882bf1d4f851aa2cf3595b6853253b380b155f29eb76227af655c8d7ec83ce2",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold0/metrics_summary.json": "80166228f7bc6758329a7c0cb132620186659da75d061ee544c417f24164f8e7",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold0_seed7/metrics.json": "92f776a5227701558435354acb018446fb52c8b5b92a9b97a7db6d1f99fdc184",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold0_seed7/sweep_predictions.csv": "f1c489fe59335eb526090e1b71ad2211bf939552aded32227123e2c772d93845",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold0_seed42/metrics.json": "bf27432ce931d2231c8bec1bffa25a44cd5812fad52630d48bc8cccf28847582",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold0_seed42/sweep_predictions.csv": "ea501e33df3de4b45ed991ebcb9ae2c1edf64a785ed23da852cad0ee41a33677",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold0_seed123/metrics.json": "7f2ccc4fb4b4f225bfe37be2385af5c1a85029102fb5fc97bee3865a280215fc",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold0_seed123/sweep_predictions.csv": "f1c489fe59335eb526090e1b71ad2211bf939552aded32227123e2c772d93845",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold0_seed999/metrics.json": "c59ebd847bb40da5849b4a807d077507c981e8f18dbbc4a86d09fd8c660b3d6f",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold0_seed999/sweep_predictions.csv": "f1c489fe59335eb526090e1b71ad2211bf939552aded32227123e2c772d93845",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold0_seed2024/metrics.json": "7ed4690f6e857a4aae4d5af9b7332af1526800d24e8c1cb5eb2c17c09886fbac",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold0_seed2024/sweep_predictions.csv": "7364f480218dfe97d0d851796471588888a71aaf529b110dee05357c973b9a3a",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold1/metrics_summary.json": "20a7479a01ffd6912290fb9afd5ae0f5ca545a911b3d93654681d2d3d684312a",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold1_seed7/metrics.json": "37cf4f9b6efc2d98fbbd95a4184bdc88dc54700f99181c92fa9f9e4ef4206854",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold1_seed7/sweep_predictions.csv": "a8a9eaa090afe2a87667343d04b0152f6e52f744f76b56aebb7dcfe0f5bda885",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold1_seed42/metrics.json": "f52f5ae806c0ed29f377a81a584522997502b4c338d402394cede4c5c7236132",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold1_seed42/sweep_predictions.csv": "2ffc563af0db8c296229809414f1be5a6be0cfbc49be60fe238d8c7a267f2a35",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold1_seed123/metrics.json": "f3c45298bfcb6cdfb7fa44601549d8a21343a60006e68e0d09a74ca5c722f6ad",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold1_seed123/sweep_predictions.csv": "01c2758161c4a593a3a89946319d3eae62aacb01802f6bf8b765aaa1e4e944d6",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold1_seed999/metrics.json": "7ceb3da094595900e0dac566692b565658a2e32b0a42f3ab552b9d2dff7736f3",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold1_seed999/sweep_predictions.csv": "a8a9eaa090afe2a87667343d04b0152f6e52f744f76b56aebb7dcfe0f5bda885",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold1_seed2024/metrics.json": "349cbfb9f80745d8775bb44228c84b1457aa13d055382170404de8b82075d246",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold1_seed2024/sweep_predictions.csv": "a8a9eaa090afe2a87667343d04b0152f6e52f744f76b56aebb7dcfe0f5bda885",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold2/metrics_summary.json": "46685ad1471f01853d30eb2d9f50b323ac76ce5186c6883426a963dab0fa8f12",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold2_seed7/metrics.json": "10de45ab9dbadc2ded3bea6ea3fc0b132f38bb6493e8b96f917e860bdff7fb55",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold2_seed7/sweep_predictions.csv": "09d51511a22d251f091b08ecb62dd33bc30507742e643f6c20c0ab767c96e130",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold2_seed42/metrics.json": "343fc1276f2efde2b82f8c9fda5e5b4b3b554a77fff8da928f2e3e10bebd77ab",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold2_seed42/sweep_predictions.csv": "c974156c2ab81cd12eacda03c3eec09302c9bbf5ad9a555bdd60487db0d3d422",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold2_seed123/metrics.json": "331269df8d1e93e8770925c7f02434c89fd95f38178622fce4c451d8e6e32a5d",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold2_seed123/sweep_predictions.csv": "c974156c2ab81cd12eacda03c3eec09302c9bbf5ad9a555bdd60487db0d3d422",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold2_seed999/metrics.json": "26b2b26c874a8967846f09c397adb69edf0dfd7438b9247706f55aac1d1926a1",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold2_seed999/sweep_predictions.csv": "c974156c2ab81cd12eacda03c3eec09302c9bbf5ad9a555bdd60487db0d3d422",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold2_seed2024/metrics.json": "9047184ea0037454fb86720541d8bc7699c456e2a4384c611f2d2d26cdf026b1",
+    "results/runs/high-glucose_folds_w128/cnn1d/fold2_seed2024/sweep_predictions.csv": "c974156c2ab81cd12eacda03c3eec09302c9bbf5ad9a555bdd60487db0d3d422",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold0/metrics_summary.json": "2d0f1bf53595d0182febcffd92606394801c67ca337d1e152f0c5926d0742430",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold0_seed7/metrics.json": "4864c9e9541c633632a077ad3077bb9ec1d277dc3fa448aa0ae2c8479f535eb5",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold0_seed7/sweep_predictions.csv": "ea501e33df3de4b45ed991ebcb9ae2c1edf64a785ed23da852cad0ee41a33677",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold0_seed42/metrics.json": "c5c428b6540f70b2e6c3e967d41ff411b90d8b13e90fa29f347d63c0d2b8dd4b",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold0_seed42/sweep_predictions.csv": "74b3484c4c746727680141d478cbd4f550debab7c791db7402025f3bec57c0f4",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold0_seed123/metrics.json": "449a3d829fdd58e867b3334906e9e25f29a7117b0dbbdf1408a80f44a601304f",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold0_seed123/sweep_predictions.csv": "f1c489fe59335eb526090e1b71ad2211bf939552aded32227123e2c772d93845",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold0_seed999/metrics.json": "da4a0bfa2d5d966c21b0f2b8c05e7a402105531e6fe724050fa7d06761585763",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold0_seed999/sweep_predictions.csv": "74b3484c4c746727680141d478cbd4f550debab7c791db7402025f3bec57c0f4",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold0_seed2024/metrics.json": "e11710796ffc51d7fdec5162be9d0979aa1d78fbfcdebd72bb10f5ab664d7b1f",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold0_seed2024/sweep_predictions.csv": "74b3484c4c746727680141d478cbd4f550debab7c791db7402025f3bec57c0f4",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold1/metrics_summary.json": "35869f4c5a279c9ba139f0df29570824be052b1676fae59662e0f4ea00eb06b0",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold1_seed7/metrics.json": "f7aa2050d8eb847be663cdd0aec14e258137f15a0063ddda8645e25631da9e15",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold1_seed7/sweep_predictions.csv": "f8aae173c1a29c64246d0b30d031d0784949c8bfa345bad1f34bd4595bb68b59",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold1_seed42/metrics.json": "ab656c6e3617618e786ec11a9604fd86f028f13c80a271c3ec45d9aafd692a19",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold1_seed42/sweep_predictions.csv": "c878c5817d5a6c39c8982dbb76fddb594f12e87570e9158631ad4f89cb0c402b",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold1_seed123/metrics.json": "598295930eb10049ba619a25064b0ce2b402a4ea1874297ccb1ee8db7e9dd778",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold1_seed123/sweep_predictions.csv": "c878c5817d5a6c39c8982dbb76fddb594f12e87570e9158631ad4f89cb0c402b",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold1_seed999/metrics.json": "46dbc433faa69638e13501316a748689f490cf87271620e49020afa8ac7d6fa8",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold1_seed999/sweep_predictions.csv": "c878c5817d5a6c39c8982dbb76fddb594f12e87570e9158631ad4f89cb0c402b",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold1_seed2024/metrics.json": "2c84e49d26ada77baa457b13db03ee364ca9b9a042368915bcd1ce4c3624a197",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold1_seed2024/sweep_predictions.csv": "f47d04b49efdecf382eae0e7adaca5f41ab055bc9067db03ba13d358cb40836c",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold2/metrics_summary.json": "a39bb7ceac018a09b81f731e88ad180e82bf82dcbbf49d0fafeeaf01e6f3e3b9",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold2_seed7/metrics.json": "2a15cd9fbcedd13a6676583f92c70c79ed0e7bb22812e7eaf3d8f68a3bfa4a5b",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold2_seed7/sweep_predictions.csv": "09d51511a22d251f091b08ecb62dd33bc30507742e643f6c20c0ab767c96e130",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold2_seed42/metrics.json": "8f7f6681653b882f0e7d5a07ec9a3122652f396edcac88c28c3c251ea752eb95",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold2_seed42/sweep_predictions.csv": "c974156c2ab81cd12eacda03c3eec09302c9bbf5ad9a555bdd60487db0d3d422",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold2_seed123/metrics.json": "acd495d9a61dbf6eb1ae845904716571e16c088119377f6c83985ad49524e12c",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold2_seed123/sweep_predictions.csv": "c974156c2ab81cd12eacda03c3eec09302c9bbf5ad9a555bdd60487db0d3d422",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold2_seed999/metrics.json": "95fd65e4394fb93cb9d63b1acb0d688805e00bdd9f20a20af7406ceb445db345",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold2_seed999/sweep_predictions.csv": "09d51511a22d251f091b08ecb62dd33bc30507742e643f6c20c0ab767c96e130",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold2_seed2024/metrics.json": "91064d7a27ab57afb1a4a546c82b81221821ff02764387d49e0ddbab7ad2dc92",
+    "results/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold2_seed2024/sweep_predictions.csv": "09d51511a22d251f091b08ecb62dd33bc30507742e643f6c20c0ab767c96e130",
+    "data/processed/features/high-glucose_selected_17_features.csv": "9accac6acd79252d272c5bce5490d136e54f64f6445f8c070175e28ac47a3a3a",
+    "data/metadata/feature_columns_17.json": "7e91c703856b782d013cfedeb77753e11fc8079e0192ad1a4d7674e071126883",
+    "results/feature_ml/high-glucose_baseline_summary.csv": "a3c763318ca7c2108b62a0fd751d6722501734b81016a943981dc89a272dbbfb",
+    "results/fixed_point/high-glucose/bit_width_study.json": "9b068eb4f81247b33ec3d3e3e9c9f8b4f96a33b47a61f8177be2bba344a54a7b"
+  }
+}

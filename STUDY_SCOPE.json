@@ -1,0 +1,25 @@
+{
+  "SpikingCNN1D": {
+    "reported_folds": [
+      0
+    ],
+    "seeds": [
+      7,
+      42,
+      123,
+      999,
+      2024
+    ],
+    "completion": "Incomplete exploratory study; fold 0 only",
+    "extra_saved_folds": "Preserved for provenance, excluded from manuscript aggregates and claims"
+  },
+  "HDL": {
+    "contribution": "Single-neuron Q3.12 LIF Verilog prototype",
+    "not_demonstrated": [
+      "Complete 300-neuron reservoir RTL",
+      "Quantised readout hardware",
+      "Cycle-accurate full-classifier verification",
+      "FPGA resource, latency or power measurements"
+    ]
+  }
+}

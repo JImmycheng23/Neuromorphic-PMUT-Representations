@@ -1,0 +1,26 @@
+partition,sweep_id,window_count
+train,Glucose 250mM sweep 2 (100k–2.5M),36
+train,Glucose 100mM sweep 2 (100k–2.5M),38
+train,Glucose 50mM sweep 1 (100k–2.5M),38
+train,Glucose 50mM sweep 2 (100k–2.5M),35
+train,Glucose 100mM sweep 1 (100k–2.5M),36
+train,Glucose 500mM sweep 2 (100k–2.5M),37
+train,Glucose 1000mM sweep 2 (100k–2.5M),38
+train,Glucose 250mM sweep 1 (100k–2.5M),38
+train,Glucose 500mM sweep 1 (100k–2.5M),36
+train,Glucose 1000mM sweep 1 (100k–2.5M),36
+val,Glucose 500mM sweep 1 (100k–2.5M),10
+val,Glucose 250mM sweep 2 (100k–2.5M),10
+val,Glucose 500mM sweep 2 (100k–2.5M),9
+val,Glucose 50mM sweep 1 (100k–2.5M),8
+val,Glucose 50mM sweep 2 (100k–2.5M),11
+val,Glucose 100mM sweep 2 (100k–2.5M),8
+val,Glucose 100mM sweep 1 (100k–2.5M),10
+val,Glucose 1000mM sweep 2 (100k–2.5M),8
+val,Glucose 1000mM sweep 1 (100k–2.5M),10
+val,Glucose 250mM sweep 1 (100k–2.5M),8
+test,Glucose 50mM sweep 3 (100k–2.5M),46
+test,Glucose 100mM sweep 3 (100k–2.5M),46
+test,Glucose 250mM sweep 3 (100k–2.5M),46
+test,Glucose 500mM sweep 3 (100k–2.5M),46
+test,Glucose 1000mM sweep 3 (100k–2.5M),46

@@ -1,0 +1,64 @@
+model,fold,run,window_accuracy,sweep_accuracy,aggregation,source,reported_in_manuscript
+ESN,0,0,0.6739130434782609,0.8,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold0\metrics_summary.json,True
+ESN,0,1,0.7130434782608696,1.0,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold0\metrics_summary.json,True
+ESN,0,2,0.7,0.8,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold0\metrics_summary.json,True
+ESN,0,3,0.7,0.8,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold0\metrics_summary.json,True
+ESN,0,4,0.717391304347826,0.8,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold0\metrics_summary.json,True
+LSM membrane,0,0,0.6739130434782609,0.6,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold0\lsm\metrics_summary.json,True
+LSM membrane,0,1,0.6869565217391305,0.6,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold0\lsm\metrics_summary.json,True
+LSM membrane,0,2,0.6739130434782609,0.6,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold0\lsm\metrics_summary.json,True
+LSM membrane,0,3,0.6782608695652174,0.6,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold0\lsm\metrics_summary.json,True
+LSM membrane,0,4,0.6826086956521739,0.6,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold0\lsm\metrics_summary.json,True
+LSM spikes,0,0,0.7086956521739131,1.0,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold0\lsm\metrics_spikes.json,True
+ESN,1,0,0.8434782608695652,0.8,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold1\metrics_summary.json,True
+ESN,1,1,0.8173913043478261,1.0,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold1\metrics_summary.json,True
+ESN,1,2,0.8434782608695652,1.0,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold1\metrics_summary.json,True
+ESN,1,3,0.9,1.0,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold1\metrics_summary.json,True
+ESN,1,4,0.8782608695652174,1.0,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold1\metrics_summary.json,True
+LSM membrane,1,0,0.8130434782608695,0.8,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold1\lsm\metrics_summary.json,True
+LSM membrane,1,1,0.8217391304347826,0.8,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold1\lsm\metrics_summary.json,True
+LSM membrane,1,2,0.8130434782608695,0.8,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold1\lsm\metrics_summary.json,True
+LSM membrane,1,3,0.8130434782608695,0.8,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold1\lsm\metrics_summary.json,True
+LSM membrane,1,4,0.8260869565217391,0.8,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold1\lsm\metrics_summary.json,True
+LSM spikes,1,0,0.8782608695652174,1.0,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold1\lsm\metrics_spikes.json,True
+ESN,2,0,0.8304347826086956,1.0,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold2\metrics_summary.json,True
+ESN,2,1,0.8739130434782608,1.0,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold2\metrics_summary.json,True
+ESN,2,2,0.8608695652173913,1.0,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold2\metrics_summary.json,True
+ESN,2,3,0.8739130434782608,1.0,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold2\metrics_summary.json,True
+ESN,2,4,0.8652173913043478,1.0,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold2\metrics_summary.json,True
+LSM membrane,2,0,0.8391304347826087,1.0,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold2\lsm\metrics_summary.json,True
+LSM membrane,2,1,0.8652173913043478,1.0,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold2\lsm\metrics_summary.json,True
+LSM membrane,2,2,0.8652173913043478,1.0,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold2\lsm\metrics_summary.json,True
+LSM membrane,2,3,0.8304347826086956,1.0,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold2\lsm\metrics_summary.json,True
+LSM membrane,2,4,0.8347826086956521,1.0,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold2\lsm\metrics_summary.json,True
+LSM spikes,2,0,0.8913043478260869,1.0,mean_probabilities,results\reservoir\high-glucose\grouped_w128\fold2\lsm\metrics_spikes.json,True
+CNN1D,0,7,0.7652173913043478,0.8,mean_logits,results\runs\high-glucose_folds_w128\cnn1d\fold0_seed7\metrics.json,True
+CNN1D,0,42,0.6347826086956522,0.8,mean_logits,results\runs\high-glucose_folds_w128\cnn1d\fold0_seed42\metrics.json,True
+CNN1D,0,123,0.8478260869565217,0.8,mean_logits,results\runs\high-glucose_folds_w128\cnn1d\fold0_seed123\metrics.json,True
+CNN1D,0,999,0.8043478260869565,0.8,mean_logits,results\runs\high-glucose_folds_w128\cnn1d\fold0_seed999\metrics.json,True
+CNN1D,0,2024,0.5695652173913044,0.4,mean_logits,results\runs\high-glucose_folds_w128\cnn1d\fold0_seed2024\metrics.json,True
+CNN1D,1,7,0.7565217391304347,0.8,mean_logits,results\runs\high-glucose_folds_w128\cnn1d\fold1_seed7\metrics.json,True
+CNN1D,1,42,0.5260869565217391,0.4,mean_logits,results\runs\high-glucose_folds_w128\cnn1d\fold1_seed42\metrics.json,True
+CNN1D,1,123,0.591304347826087,0.6,mean_logits,results\runs\high-glucose_folds_w128\cnn1d\fold1_seed123\metrics.json,True
+CNN1D,1,999,0.7956521739130434,0.8,mean_logits,results\runs\high-glucose_folds_w128\cnn1d\fold1_seed999\metrics.json,True
+CNN1D,1,2024,0.7913043478260869,0.8,mean_logits,results\runs\high-glucose_folds_w128\cnn1d\fold1_seed2024\metrics.json,True
+CNN1D,2,7,0.8478260869565217,0.8,mean_logits,results\runs\high-glucose_folds_w128\cnn1d\fold2_seed7\metrics.json,True
+CNN1D,2,42,0.8956521739130435,1.0,mean_logits,results\runs\high-glucose_folds_w128\cnn1d\fold2_seed42\metrics.json,True
+CNN1D,2,123,0.8869565217391304,1.0,mean_logits,results\runs\high-glucose_folds_w128\cnn1d\fold2_seed123\metrics.json,True
+CNN1D,2,999,0.8739130434782608,1.0,mean_logits,results\runs\high-glucose_folds_w128\cnn1d\fold2_seed999\metrics.json,True
+CNN1D,2,2024,0.9304347826086956,1.0,mean_logits,results\runs\high-glucose_folds_w128\cnn1d\fold2_seed2024\metrics.json,True
+SpikingCNN1D,0,7,0.7086956521739131,0.8,mean_logits,results\exploratory\runs\high-glucose_folds_w128\spiking_cnn1d\fold0_seed7\metrics.json,True
+SpikingCNN1D,0,42,0.8043478260869565,1.0,mean_logits,results\exploratory\runs\high-glucose_folds_w128\spiking_cnn1d\fold0_seed42\metrics.json,True
+SpikingCNN1D,0,123,0.8434782608695652,0.8,mean_logits,results\exploratory\runs\high-glucose_folds_w128\spiking_cnn1d\fold0_seed123\metrics.json,True
+SpikingCNN1D,0,999,0.7956521739130434,1.0,mean_logits,results\exploratory\runs\high-glucose_folds_w128\spiking_cnn1d\fold0_seed999\metrics.json,True
+SpikingCNN1D,0,2024,0.8260869565217391,1.0,mean_logits,results\exploratory\runs\high-glucose_folds_w128\spiking_cnn1d\fold0_seed2024\metrics.json,True
+SpikingCNN1D,1,7,0.6565217391304348,0.6,mean_logits,results\exploratory\runs\high-glucose_folds_w128\spiking_cnn1d\fold1_seed7\metrics.json,False
+SpikingCNN1D,1,42,0.7695652173913043,0.8,mean_logits,results\exploratory\runs\high-glucose_folds_w128\spiking_cnn1d\fold1_seed42\metrics.json,False
+SpikingCNN1D,1,123,0.7086956521739131,0.8,mean_logits,results\exploratory\runs\high-glucose_folds_w128\spiking_cnn1d\fold1_seed123\metrics.json,False
+SpikingCNN1D,1,999,0.6956521739130435,0.8,mean_logits,results\exploratory\runs\high-glucose_folds_w128\spiking_cnn1d\fold1_seed999\metrics.json,False
+SpikingCNN1D,1,2024,0.8478260869565217,0.8,mean_logits,results\exploratory\runs\high-glucose_folds_w128\spiking_cnn1d\fold1_seed2024\metrics.json,False
+SpikingCNN1D,2,7,0.8130434782608695,0.8,mean_logits,results\exploratory\runs\high-glucose_folds_w128\spiking_cnn1d\fold2_seed7\metrics.json,False
+SpikingCNN1D,2,42,0.8347826086956521,1.0,mean_logits,results\exploratory\runs\high-glucose_folds_w128\spiking_cnn1d\fold2_seed42\metrics.json,False
+SpikingCNN1D,2,123,0.8521739130434782,1.0,mean_logits,results\exploratory\runs\high-glucose_folds_w128\spiking_cnn1d\fold2_seed123\metrics.json,False
+SpikingCNN1D,2,999,0.8478260869565217,0.8,mean_logits,results\exploratory\runs\high-glucose_folds_w128\spiking_cnn1d\fold2_seed999\metrics.json,False
+SpikingCNN1D,2,2024,0.8260869565217391,0.8,mean_logits,results\exploratory\runs\high-glucose_folds_w128\spiking_cnn1d\fold2_seed2024\metrics.json,False

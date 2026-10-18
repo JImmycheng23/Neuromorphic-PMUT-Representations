@@ -1,0 +1,298 @@
+{
+  "python_syntax": [
+    {
+      "file": "document_protocol.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "infer_exported_reservoir.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/build_central_results.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/notebooks/nb11_reservoir.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/notebooks/nb12_model_comparison.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/notebooks/nb13_fixed_point_lif.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/notebooks/nb14_fixed_point_pmut.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/notebooks/nb15_hdl_test_vectors.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/notebooks/nb16_hdl_spec.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/notebooks/nb4_feature_extraction.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/notebooks/nb5_feature_ml_baselines.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/notebooks/nb7_lif_validation.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/notebooks/nb8_spike_encoding.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/notebooks/nb9_encoder_evaluation.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/prepare_dataset.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/raw_data_viewer.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/regenerate_all.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/scripts/restore_output_layout.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/src/pmut_models/__init__.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/src/pmut_models/config.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/src/pmut_models/data.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/src/pmut_models/fixed_point.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/src/pmut_models/reservoir.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/src/pmut_models/spiking.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/src/pmut_models/train_utils.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/train.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "repository/verify_hdl_checklist.py",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "reproduce_supplement.py",
+      "passed": true,
+      "error": null
+    }
+  ],
+  "cli_import_help": [
+    {
+      "file": "reproduce_supplement.py",
+      "passed": true,
+      "exit_code": 0,
+      "error_tail": "",
+      "source_sha256": "462b26bb35a8be7b4f418b1bce3f50a4c4f17327da299c466c808c1c617c7f44",
+      "reused_previous_unchanged_check": true
+    },
+    {
+      "file": "infer_exported_reservoir.py",
+      "passed": true,
+      "exit_code": 0,
+      "error_tail": "",
+      "source_sha256": "94a1f66a028be752f3760ed5269e0c38d8248c514d19a93904ce71f546c9fa5b",
+      "reused_previous_unchanged_check": true
+    },
+    {
+      "file": "repository/prepare_dataset.py",
+      "passed": true,
+      "exit_code": 0,
+      "error_tail": "",
+      "source_sha256": "a4e7a927fdfb096814afdfcf5b723741890e3b11878ccc3be8901fafdaae682b",
+      "reused_previous_unchanged_check": true
+    },
+    {
+      "file": "repository/train.py",
+      "passed": true,
+      "exit_code": 0,
+      "error_tail": "",
+      "source_sha256": "cccb0a76a76b9bd20c8a3865a41f655ba265e6bf47af7d0d460ae7cd15b000c7",
+      "reused_previous_unchanged_check": true
+    },
+    {
+      "file": "repository/regenerate_all.py",
+      "passed": true,
+      "exit_code": 0,
+      "error_tail": "",
+      "source_sha256": "154a4008cdb28fafbfb0b75c06a65ca653afc7c6c9c6d76724b74ce6bdc50223",
+      "reused_previous_unchanged_check": true
+    },
+    {
+      "file": "repository/raw_data_viewer.py",
+      "passed": true,
+      "exit_code": 0,
+      "error_tail": "",
+      "source_sha256": "c4d0c7fe2a0aaf90384c4f1f7827dbbee94a18e24e4be89549439a5e714d27ef",
+      "reused_previous_unchanged_check": true
+    },
+    {
+      "file": "repository/notebooks/nb4_feature_extraction.py",
+      "passed": true,
+      "exit_code": 0,
+      "error_tail": "",
+      "source_sha256": "fdeb897de445247713ed4e6e72eba2c597bf4fc3f7f653ccd3fa4cba64f811b7",
+      "reused_previous_unchanged_check": true
+    },
+    {
+      "file": "repository/notebooks/nb5_feature_ml_baselines.py",
+      "passed": true,
+      "exit_code": 0,
+      "error_tail": "",
+      "source_sha256": "c67f2a2ca1d854d1e87d10e97ca69ebd912e25f427897ed737f821a8261a4ea1",
+      "reused_previous_unchanged_check": true
+    },
+    {
+      "file": "repository/notebooks/nb11_reservoir.py",
+      "passed": true,
+      "exit_code": 0,
+      "error_tail": "",
+      "source_sha256": "2449ad819fb01816d09993366a45827d2fa694454893d8af33a4cac3215e4ee2",
+      "reused_previous_unchanged_check": true
+    },
+    {
+      "file": "repository/notebooks/nb14_fixed_point_pmut.py",
+      "passed": true,
+      "exit_code": 0,
+      "error_tail": "",
+      "source_sha256": "df3dd6b337b07960044576e6f44b4ea4357e1f2df4e9968abc9d46e2fb736a76",
+      "reused_previous_unchanged_check": true
+    },
+    {
+      "file": "repository/notebooks/nb15_hdl_test_vectors.py",
+      "passed": true,
+      "exit_code": 0,
+      "error_tail": "",
+      "source_sha256": "bb5dd044677708cbd655e60aa90803393f2d083a699954ac0edb64dc3e7bd5b1",
+      "reused_previous_unchanged_check": true
+    },
+    {
+      "file": "repository/notebooks/nb16_hdl_spec.py",
+      "passed": true,
+      "exit_code": 0,
+      "error_tail": "",
+      "source_sha256": "48e7374ffdb2125525d2629b7f3e5ed2a1e2d0892ef40bc6e4a2e0fc5326a7e4",
+      "reused_previous_unchanged_check": true
+    }
+  ],
+  "raw_files": [
+    {
+      "file": "repository\\data\\raw\\pmut_rx_tx_Air_Glucose_50mM_to_1000mM.xlsx",
+      "passed": true
+    },
+    {
+      "file": "repository\\data\\raw\\low_conc_glucose_sweeps_data_2mM_to_50mM.xlsx",
+      "passed": true
+    },
+    {
+      "file": "repository\\data\\raw\\Liquid_Loading_Dataset_Air_DIW_Acetone_IPA.csv",
+      "passed": true
+    }
+  ],
+  "saved_validation": {
+    "reservoir_model_validation.json": {
+      "expected": 33,
+      "found": 33,
+      "passed": true
+    },
+    "neural_checkpoint_validation.json": {
+      "expected": 30,
+      "found": 30,
+      "passed": true
+    },
+    "precision_regeneration_validation.json": {
+      "expected": 5,
+      "found": 5,
+      "passed": true
+    },
+    "reloaded_model_validation.json": {
+      "expected": 69,
+      "found": 69,
+      "passed": true
+    }
+  },
+  "data": {
+    "sweeps": 15,
+    "samples": 90000,
+    "windows": 690,
+    "fold_assignments": 2070,
+    "all_selected_features_match": true
+  },
+  "model_index": {
+    "count": 104,
+    "every_file_exists": true,
+    "archival_only_spiking_checkpoints": 10
+  },
+  "target_folder": {
+    "path": "C:\\Users\\27010\\Desktop\\Neumat\\publish\\Git-paper",
+    "has_git_metadata": false,
+    "raw_measurement_files": 0,
+    "has_regenerated_exports": false,
+    "has_saved_model_inference": false,
+    "has_portable_reproduction_wrapper": false
+  }
+}

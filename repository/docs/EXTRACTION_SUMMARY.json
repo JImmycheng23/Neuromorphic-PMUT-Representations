@@ -1,0 +1,34 @@
+{
+  "source": "C:\\Users\\27010\\Desktop\\Neumat\\Data\\pmut_snn_models",
+  "intended_destination": "C:\\Users\\27010\\Desktop\\Neumat\\publish\\Git-paper",
+  "copied_files": 286,
+  "copied_bytes": 12465581,
+  "categories": {
+    "original_documentation": 4,
+    "entry_point": 6,
+    "research_code": 18,
+    "results": 96,
+    "generated_figure": 40,
+    "processed_windows": 1,
+    "feature_table": 1,
+    "hardware": 12,
+    "checkpoint": 30,
+    "exploratory_results": 78
+  },
+  "excluded_files": 195,
+  "checkpoint_count": 30,
+  "train_val_npz_shared_sweeps": [
+    "Glucose 1000mM sweep 1 (100k–2.5M)",
+    "Glucose 1000mM sweep 2 (100k–2.5M)",
+    "Glucose 100mM sweep 1 (100k–2.5M)",
+    "Glucose 100mM sweep 2 (100k–2.5M)",
+    "Glucose 250mM sweep 1 (100k–2.5M)",
+    "Glucose 250mM sweep 2 (100k–2.5M)",
+    "Glucose 500mM sweep 1 (100k–2.5M)",
+    "Glucose 500mM sweep 2 (100k–2.5M)",
+    "Glucose 50mM sweep 1 (100k–2.5M)",
+    "Glucose 50mM sweep 2 (100k–2.5M)"
+  ],
+  "source_files_modified": false,
+  "uploaded": false
+}

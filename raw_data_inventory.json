@@ -1,0 +1,29 @@
+[
+  {
+    "filename": "pmut_rx_tx_Air_Glucose_50mM_to_1000mM.xlsx",
+    "source": "C:\\Users\\27010\\Desktop\\Neumat\\Data\\PMUT-SNN\\pmut_rx_tx_Air_Glucose_50mM_to_1000mM.xlsx",
+    "destination": "repository\\data\\raw\\pmut_rx_tx_Air_Glucose_50mM_to_1000mM.xlsx",
+    "bytes": 12116490,
+    "sha256": "84b7e1c7bf3d09a8031788a551d12338e892c100b7253db88d147f534d35c6f7",
+    "md5": "397dc1f0904d471b844defabdc9021a7",
+    "matches_recorded_md5": true
+  },
+  {
+    "filename": "low_conc_glucose_sweeps_data_2mM_to_50mM.xlsx",
+    "source": "C:\\Users\\27010\\Desktop\\Neumat\\Data\\PMUT-SNN\\low_conc_glucose_sweeps_data_2mM_to_50mM.xlsx",
+    "destination": "repository\\data\\raw\\low_conc_glucose_sweeps_data_2mM_to_50mM.xlsx",
+    "bytes": 2126182,
+    "sha256": "0c700e496c995334ae1de9cc884e86cd117d66a4adb99a93605884ec3fe095de",
+    "md5": "a4edc1e3b1bf8ef71ba4d3a4c09a21ad",
+    "matches_recorded_md5": true
+  },
+  {
+    "filename": "Liquid_Loading_Dataset_Air_DIW_Acetone_IPA.csv",
+    "source": "C:\\Users\\27010\\Desktop\\Neumat\\Data\\PMUT-SNN\\Liquid_Loading_Dataset_Air_DIW_Acetone_IPA.csv",
+    "destination": "repository\\data\\raw\\Liquid_Loading_Dataset_Air_DIW_Acetone_IPA.csv",
+    "bytes": 1627037,
+    "sha256": "a43579d31375802a4dfda4ccb86bbc43d866f1e832f1cef5cb6342068198dacb",
+    "md5": "f284e4a0f7b1dab583c7b40cd22f8f98",
+    "matches_recorded_md5": true
+  }
+]

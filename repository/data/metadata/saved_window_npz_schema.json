@@ -1,0 +1,90 @@
+{
+  "x_train.npy": {
+    "descr": "<f4",
+    "fortran_order": false,
+    "shape": [
+      368,
+      128,
+      4
+    ]
+  },
+  "y_train.npy": {
+    "descr": "<i8",
+    "fortran_order": false,
+    "shape": [
+      368
+    ]
+  },
+  "x_test.npy": {
+    "descr": "<f4",
+    "fortran_order": false,
+    "shape": [
+      230,
+      128,
+      4
+    ]
+  },
+  "y_test.npy": {
+    "descr": "<i8",
+    "fortran_order": false,
+    "shape": [
+      230
+    ]
+  },
+  "labels.npy": {
+    "descr": "<U15",
+    "fortran_order": false,
+    "shape": [
+      5
+    ]
+  },
+  "channels.npy": {
+    "descr": "<U9",
+    "fortran_order": false,
+    "shape": [
+      4
+    ]
+  },
+  "train_groups.npy": {
+    "descr": "<U34",
+    "fortran_order": false,
+    "shape": [
+      368
+    ]
+  },
+  "test_groups.npy": {
+    "descr": "<U34",
+    "fortran_order": false,
+    "shape": [
+      230
+    ]
+  },
+  "metadata.npy": {
+    "descr": "<U388",
+    "fortran_order": false,
+    "shape": []
+  },
+  "x_val.npy": {
+    "descr": "<f4",
+    "fortran_order": false,
+    "shape": [
+      92,
+      128,
+      4
+    ]
+  },
+  "y_val.npy": {
+    "descr": "<i8",
+    "fortran_order": false,
+    "shape": [
+      92
+    ]
+  },
+  "val_groups.npy": {
+    "descr": "<U34",
+    "fortran_order": false,
+    "shape": [
+      92
+    ]
+  }
+}
